@@ -1,0 +1,44 @@
+{
+  "name": "location-gaming-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "vercel-build": "next build",
+    "setup": "node scripts/setup-deployment.js"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "openai": "^4.20.1",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "@types/leaflet": "^1.9.8",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4",
+    "multer": "^1.4.5-lts.1",
+    "@types/multer": "^1.4.11",
+    "sharp": "^0.33.1",
+    "uuid": "^9.0.1",
+    "@types/uuid": "^9.0.7",
+    "lucide-react": "^0.294.0",
+    "clsx": "^2.0.0",
+    "class-variance-authority": "^0.7.0",
+    "tailwind-merge": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}
